@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 
 const eventEmitter = new EventEmitter();
 eventEmitter.on('start', () => {
-    console.log('started');
+    //console.log('started');
     server.listen(8000);
 });
 
