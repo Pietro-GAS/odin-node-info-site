@@ -63,7 +63,6 @@ async function responseBody(url, response) {
 
 const main = () => {
     eventEmitter.emit('start');
-    //server.listen(8000);
 }
 
 main();
